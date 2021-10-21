@@ -1,0 +1,8 @@
+name: HTTP Custom View
+id: http-sink-step
+type: step
+constraints:
+  -
+    mandatory: true
+    operation: CONTAINS_STEP_NAME
+    parameter: http-sink

@@ -1,9 +1,9 @@
-name: Kafka Sink Local
-id: kafka-sink-local
+name: Azure CosmosDB Source Local
+id: azure-cosmosdb-source-local
 type: step
 url: http://localhost:3002
 constraints:
   -
     mandatory: true
     operation: CONTAINS_STEP_NAME
-    parameter: kafka-sink
+    parameter: azure-cosmosdb-source

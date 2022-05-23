@@ -1,9 +1,9 @@
-name: SSH Sink Test
-id: ssh-sink-test
+name: SSH Source Test
+id: ssh-source-test
 type: step
 url: https://step-extension.netlify.app/remoteEntry.js
 constraints:
   -
     mandatory: true
     operation: CONTAINS_STEP_NAME
-    parameter: ssh-sink
+    parameter: ssh-source

@@ -1,9 +1,9 @@
-name: Twitter Search Sink Local
-id: twitter-search-sink-local
+name: Kafka Sink Local
+id: kafka-sink-local
 type: step
 url: http://localhost:3002
 constraints:
   -
     mandatory: true
     operation: CONTAINS_STEP_NAME
-    parameter: twitter-search-sink
+    parameter: kafka-sink

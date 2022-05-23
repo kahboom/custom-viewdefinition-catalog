@@ -1,7 +1,8 @@
 name: SSH Source Test
 id: ssh-source-test
 type: step
-url: http://localhost:3004/remoteEntry.js
+#url: http://localhost:3004/remoteEntry.js
+url: https://step-extension-ssh-source.netlify.app/remoteEntry.js
 constraints:
   -
     mandatory: true

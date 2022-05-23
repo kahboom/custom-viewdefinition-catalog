@@ -2,6 +2,8 @@ name: Twitter Search Sink Preview
 id: twitter-search-sink-preview
 type: step
 url: https://step-extension.netlify.app/remoteEntry.js
+scope: 'stepextension'
+module: './Button'
 constraints:
   -
     mandatory: true

@@ -1,7 +1,7 @@
 name: Azure CosmosDB Source Template
-id: azure-cosmosdb-source-template
+id: azure-cosmosdb-source-remote
 type: step
-url: http://localhost:3004/remoteEntry.js
+url: https://step-extension-template.netlify.app/remoteEntry.js
 scope: 'cherry'
 module: './App'
 constraints:

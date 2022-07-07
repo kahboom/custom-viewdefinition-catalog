@@ -2,7 +2,7 @@ name: Azure CosmosDB Source Local
 id: azure-cosmosdb-source-local
 type: step
 url: http://localhost:3004/remoteEntry.js
-scope: 'sshsource'
+scope: 'cola'
 module: './App'
 constraints:
   -

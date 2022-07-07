@@ -1,0 +1,11 @@
+name: Azure CosmosDB Source Template
+id: azure-cosmosdb-source-template
+type: step
+url: http://localhost:3004/remoteEntry.js
+scope: 'cherry'
+module: './App'
+constraints:
+  -
+    mandatory: true
+    operation: CONTAINS_STEP_NAME
+    parameter: azure-cosmosdb-source

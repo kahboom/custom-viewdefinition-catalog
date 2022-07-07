@@ -1,0 +1,12 @@
+name: Kamelet Binding
+id: kameletBinding
+type: generic
+constraints: 
+    -
+      mandatory: true
+      operation: SIZE_GREATER_THAN
+      parameter: 1
+    -
+      mandatory: true
+      operation: CONTAINS_STEP_TYPE
+      parameter: KAMELET

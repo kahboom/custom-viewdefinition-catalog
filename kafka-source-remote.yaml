@@ -1,5 +1,5 @@
-name: Azure CosmosDB Source Template
-id: azure-cosmosdb-source-remote
+name: Kafka Source Template
+id: kafka-source-remote
 type: step
 url: https://step-extension-template.netlify.app/remoteEntry.js
 scope: 'cola'
@@ -8,4 +8,4 @@ constraints:
   -
     mandatory: true
     operation: CONTAINS_STEP_NAME
-    parameter: azure-cosmosdb-source
+    parameter: kafka-source

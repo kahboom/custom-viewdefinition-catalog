@@ -1,7 +1,7 @@
-name: Kafka Source Template
+name: Kafka Source Remote
 id: kafka-source-remote
 type: step
-url: https://step-extension-template.netlify.app/remoteEntry.js
+url: https://kafka-source-extension.netlify.app/remoteEntry.js
 scope: 'cola'
 module: './App'
 constraints:

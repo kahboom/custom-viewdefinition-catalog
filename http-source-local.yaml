@@ -1,11 +1,11 @@
-name: CosmosDB Local
-id: azure-cosmosdb-source-local
+name: Local Extension
+id: http-source-local
 type: step
 url: http://localhost:3004/remoteEntry.js
-scope: 'cosmosDbSourceLocal'
+scope: 'httpSourceLocal'
 module: './App'
 constraints:
   -
     mandatory: true
     operation: CONTAINS_STEP_NAME
-    parameter: azure-cosmosdb-source
+    parameter: http-source

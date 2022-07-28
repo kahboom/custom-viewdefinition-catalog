@@ -1,0 +1,11 @@
+name: Remote Extension
+id: ssh-source-remote
+type: step
+url: https://step-extension-ssh-source.netlify.app/remoteEntry.js
+scope: 'sshSourceRemote'
+module: './Example'
+constraints:
+  -
+    mandatory: true
+    operation: CONTAINS_STEP_NAME
+    parameter: ssh-source

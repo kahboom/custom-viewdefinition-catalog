@@ -1,0 +1,11 @@
+name: CosmosDB Remote
+id: azure-cosmosdb-source-remote
+type: step
+url: https://cosmosdb-source.netlify.app/remoteEntry.js
+scope: 'cosmosDbSourceRemote'
+module: './App'
+constraints:
+  -
+    mandatory: true
+    operation: CONTAINS_STEP_NAME
+    parameter: azure-cosmosdb-source

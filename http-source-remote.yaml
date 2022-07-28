@@ -1,0 +1,11 @@
+name: Remote Extension
+id: http-source-remote
+type: step
+url: https://http-source.netlify.app/remoteEntry.js
+scope: 'httpSourceRemote'
+module: './App'
+constraints:
+  -
+    mandatory: true
+    operation: CONTAINS_STEP_NAME
+    parameter: http-source

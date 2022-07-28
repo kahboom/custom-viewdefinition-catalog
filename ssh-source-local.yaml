@@ -1,8 +1,8 @@
-name: SSH Source Test
-id: ssh-source-test
+name: Local Extension
+id: ssh-source-local
 type: step
 url: http://localhost:3004/remoteEntry.js
-scope: 'sshsource'
+scope: 'sshSourceLocal'
 module: './Example'
 constraints:
   -

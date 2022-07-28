@@ -8,4 +8,6 @@ constraints:
   -
     mandatory: true
     operation: CONTAINS_STEP_NAME
-    parameter: azure-cosmosdb-source
+    parameter: http-source
+    # disabling for now while debugging
+#    parameter: azure-cosmosdb-source

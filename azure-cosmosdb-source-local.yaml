@@ -3,7 +3,7 @@ id: azure-cosmosdb-source-local
 type: step
 url: http://localhost:3004/remoteEntry.js
 scope: 'cosmosDbSourceLocal'
-module: './App'
+module: './Example'
 constraints:
   -
     mandatory: true

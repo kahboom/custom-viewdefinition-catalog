@@ -1,7 +1,8 @@
 name: Properties
 id: step-extension-ocgapi-features-action
 type: step
-url: https://ogcapi-features-action.netlify.app/remoteEntry.js
+#url: https://ogcapi-features-action.netlify.app/remoteEntry.js
+url: http://localhost:3002/remoteEntry.js
 scope: 'stepextensionocgapifeaturesaction'
 module: './OGCForm'
 constraints:

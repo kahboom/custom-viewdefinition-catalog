@@ -1,10 +1,12 @@
-name: Remote
+name: Extension
 #name: HTTP Remote
-id: azure-cosmosdb-source-remote
+id: azure-cosmosdb-source
 #id: http-azure-source-remote
 type: step
-url: https://cosmosdb-source.netlify.app/remoteEntry.js
-scope: 'cosmosDbSourceRemote'
+#url: https://cosmosdb-source.netlify.app/remoteEntry.js
+url: https://localhost:3004/remoteEntry.js
+#scope: 'cosmosDbSourceRemote'
+scope: 'cosmosDbSourceLocal'
 module: './CosmosView'
 constraints:
   -

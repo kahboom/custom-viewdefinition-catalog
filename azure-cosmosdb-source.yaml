@@ -4,7 +4,7 @@ id: azure-cosmosdb-source
 #id: http-azure-source-remote
 type: step
 #url: https://cosmosdb-source.netlify.app/remoteEntry.js
-url: https://localhost:3004/remoteEntry.js
+url: http://localhost:3004/remoteEntry.js
 #scope: 'cosmosDbSourceRemote'
 scope: 'cosmosDbSourceLocal'
 module: './CosmosView'

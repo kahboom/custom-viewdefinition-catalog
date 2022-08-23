@@ -1,0 +1,11 @@
+name: Extension
+id: http-source-local
+type: step
+url: http://localhost:9001/remoteEntry.js
+scope: 'httpStep'
+module: './HttpStep'
+constraints:
+  -
+    mandatory: true
+    operation: CONTAINS_STEP_NAME
+    parameter: http-source
